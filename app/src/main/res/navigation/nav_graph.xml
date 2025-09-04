@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_camera">
+
+    <fragment
+        android:id="@+id/navigation_camera"
+        android:name="com.colormatch.app.ui.camera.CameraFragment"
+        android:label="@string/camera"
+        tools:layout="@layout/fragment_camera">
+        <action
+            android:id="@+id/action_camera_to_classification"
+            app:destination="@id/classificationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_gallery"
+        android:name="com.colormatch.app.ui.gallery.GalleryFragment"
+        android:label="@string/gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/navigation_analysis"
+        android:name="com.colormatch.app.ui.analysis.ColorAnalysisFragment"
+        android:label="@string/analysis"
+        tools:layout="@layout/fragment_color_analysis" />
+
+    <fragment
+        android:id="@+id/classificationFragment"
+        android:name="com.colormatch.app.ui.classification.ClassificationFragment"
+        android:label="分类选择"
+        tools:layout="@layout/fragment_classification">
+        <argument
+            android:name="imagePath"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_classification_to_color_analysis"
+            app:destination="@id/colorAnalysisFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/colorAnalysisFragment"
+        android:name="com.colormatch.app.ui.analysis.ColorAnalysisFragment"
+        android:label="颜色分析"
+        tools:layout="@layout/fragment_color_analysis">
+        <argument
+            android:name="imagePath"
+            app:argType="string" />
+        <argument
+            android:name="category"
+            app:argType="com.colormatch.app.data.model.ClothingCategory" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColorMatch</string>
+    <string name="camera">相机</string>
+    <string name="gallery">相册</string>
+    <string name="analysis">分析</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_category">选择分类</string>
+    <string name="color_analysis">颜色分析</string>
+    <string name="main_color">主色调</string>
+    <string name="my_clothes">我的服饰</string>
+</resources>
