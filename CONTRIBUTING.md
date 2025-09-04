@@ -5,12 +5,12 @@
 ## 🎯 贡献方式
 
 ### 🐛 报告Bug
-- 使用[Bug报告模板](https://github.com/你的用户名/ColorMatch/issues/new?template=bug_report.md)
+- 使用[Bug报告模板](https://github.com/Shinitongge/ColorMatch/issues/new?template=bug_report.md)
 - 提供详细的复现步骤
 - 包含设备信息和截图
 
 ### ✨ 提出功能建议
-- 使用[功能请求模板](https://github.com/你的用户名/ColorMatch/issues/new?template=feature_request.md)
+- 使用[功能请求模板](https://github.com/Shinitongge/ColorMatch/issues/new?template=feature_request.md)
 - 描述使用场景和预期效果
 - 提供相关的参考资料
 
@@ -20,7 +20,7 @@
 1. Fork本仓库
 2. 克隆你的Fork
    ```bash
-   git clone https://github.com/你的用户名/ColorMatch.git
+   git clone https://github.com/Shinitongge/ColorMatch.git
    ```
 3. 创建功能分支
    ```bash
@@ -143,8 +143,8 @@ app/src/main/java/com/colormatch/app/
 ## 📞 联系方式
 
 - 📧 Email: your-email@example.com
-- 💬 Discussions: [GitHub Discussions](https://github.com/你的用户名/ColorMatch/discussions)
-- 🐛 Issues: [GitHub Issues](https://github.com/你的用户名/ColorMatch/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/Shinitongge/ColorMatch/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/Shinitongge/ColorMatch/issues)
 
 ## 📄 许可证
 

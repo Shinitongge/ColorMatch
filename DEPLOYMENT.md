@@ -33,7 +33,7 @@
 
 ```bash
 # 添加远程仓库
-git remote add origin https://github.com/你的用户名/ColorMatch.git
+git remote add origin https://github.com/Shinitongge/ColorMatch.git
 
 # 推送代码到GitHub
 git branch -M main

@@ -82,7 +82,7 @@ app/
 
 1. **克隆仓库**
    ```bash
-   git clone https://github.com/你的用户名/ColorMatch.git
+   git clone https://github.com/Shinitongge/ColorMatch.git
    cd ColorMatch
    ```
 
@@ -103,7 +103,7 @@ app/
 
 你也可以直接下载预编译的APK文件：
 
-[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/你的用户名/ColorMatch/releases/latest)
+[![Download APK](https://img.shields.io/badge/Download-APK-green?style=for-the-badge)](https://github.com/Shinitongge/ColorMatch/releases/latest)
 
 ### 权限说明
 应用需要以下权限：
@@ -168,10 +168,10 @@ app/
 
 ### 社区
 
-- 💬 [Discussions](https://github.com/你的用户名/ColorMatch/discussions) - 讨论想法和问题
+- 💬 [Discussions](https://github.com/Shinitongge/ColorMatch/discussions) - 讨论想法和问题
 - 📧 邮箱: your-email@example.com
-- 🐛 [Bug报告](https://github.com/你的用户名/ColorMatch/issues/new?template=bug_report.md)
-- 💡 [功能请求](https://github.com/你的用户名/ColorMatch/issues/new?template=feature_request.md)
+- 🐛 [Bug报告](https://github.com/Shinitongge/ColorMatch/issues/new?template=bug_report.md)
+- 💡 [功能请求](https://github.com/Shinitongge/ColorMatch/issues/new?template=feature_request.md)
 
 ## 📄 许可证
 
@@ -181,13 +181,13 @@ app/
 
 如果这个项目对你有帮助，请考虑给它一个star！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=你的用户名/ColorMatch&type=Date)](https://star-history.com/#你的用户名/ColorMatch&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=Shinitongge/ColorMatch&type=Date)](https://star-history.com/#Shinitongge/ColorMatch&Date)
 
 ## 🙏 致谢
 
 感谢所有为这个项目做出贡献的开发者们！
 
-[![Contributors](https://contrib.rocks/image?repo=你的用户名/ColorMatch)](https://github.com/你的用户名/ColorMatch/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=Shinitongge/ColorMatch)](https://github.com/Shinitongge/ColorMatch/graphs/contributors)
 
 ---
 
@@ -195,7 +195,7 @@ app/
 
 **ColorMatch** - 让每一次穿搭都精彩✨
 
- Made with ❤️ by [你的名字](https://github.com/你的用户名)
+ Made with ❤️ by [Shinitongge](https://github.com/Shinitongge)
 
 [🔝 回到顶部](#colormatch---服饰色彩穿搭应用)
 
