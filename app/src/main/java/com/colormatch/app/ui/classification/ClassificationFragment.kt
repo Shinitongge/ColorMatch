@@ -13,6 +13,8 @@ import com.bumptech.glide.Glide
 import com.colormatch.app.data.model.ClothingCategory
 import com.colormatch.app.databinding.FragmentClassificationBinding
 import com.colormatch.app.ui.classification.adapter.CategoryAdapter
+import com.colormatch.app.ui.classification.ClassificationFragmentArgs
+import com.colormatch.app.ui.classification.ClassificationFragmentDirections
 
 class ClassificationFragment : Fragment() {
     

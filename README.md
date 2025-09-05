@@ -76,7 +76,7 @@ app/
 - **Android Studio**: Arctic Fox (2020.3.1) 或更高版本
 - **Android SDK**: API 24+ (Android 7.0)
 - **测试设备**: 支持相机功能的Android设备或模拟器
-- **JDK**: Java 8 或更高版本
+- **JDK**: Java 11 或更高版本
 
 ### 🚀 安装步骤
 
@@ -94,10 +94,36 @@ app/
 3. **同步依赖**
    - 等待Gradle自动同步
    - 如果遇到问题，点击 "Sync Project with Gradle Files"
+   - 或运行刷新脚本：`./refresh_project.sh`
 
 4. **运行应用**
    - 连接Android设备或启动AVD模拟器
-   - 点击工具栏的 "Run" 按钮或按 `Shift + F10`
+   - 点击工具栏的绿色 "Run" 按钮或按 `Shift + F10`
+
+### 🔧 故障排除
+
+如果Android Studio无法显示绿色运行箭头或出现依赖错误：
+
+1. **使用项目刷新脚本**
+   ```bash
+   ./refresh_project.sh
+   ```
+
+2. **手动清理项目**
+   ```bash
+   ./gradlew clean
+   ./gradlew generateDebugSources
+   ```
+
+3. **Android Studio缓存重置**
+   - File → Invalidate Caches and Restart
+   - Build → Clean Project
+   - Build → Rebuild Project
+
+4. **检查配置**
+   - 确保已启用AndroidX支持（gradle.properties已配置）
+   - 验证Java版本设置为Java 11
+   - 检查Android SDK配置是否正确
 
 ### 📱 APK下载
 

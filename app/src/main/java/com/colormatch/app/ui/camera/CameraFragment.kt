@@ -18,6 +18,7 @@ import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.colormatch.app.databinding.FragmentCameraBinding
+import com.colormatch.app.ui.camera.CameraFragmentDirections
 import java.io.File
 import java.text.SimpleDateFormat
 import java.util.*

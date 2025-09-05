@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 简单的圆形背景 -->
+    <path android:fillColor="#4ECDC4"
+          android:pathData="M54,54m-54,0a54,54 0,1,1 108,0a54,54 0,1,1 -108,0" />
+    <!-- 文字标识：C -->
+    <path android:fillColor="#FFFFFF"
+          android:pathData="M54,54m-24,0a24,24 0,1,1 48,0a24,24 0,1,1 -48,0" />
+    <!-- 简化的字母C -->
+    <path android:fillColor="#4ECDC4"
+          android:pathData="M45,45h18v6h-18z M45,57h18v6h-18z M39,51h6v6h-6z" />
+</vector>
